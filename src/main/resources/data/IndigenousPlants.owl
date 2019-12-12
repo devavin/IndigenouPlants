@@ -1,0 +1,420 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:IndigenousPlants="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <owl:Ontology rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants"/>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Diarrhoea">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#MedicinalUse"/>
+    </rdfs:subClassOf>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <IndigenousPlants:name>Diarrhoea</IndigenousPlants:name>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Diarrhoea"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Colic">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#MedicinalUse"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <IndigenousPlants:name>Colic</IndigenousPlants:name>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Colic"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#SkinDiseases">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#MedicinalUse"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <IndigenousPlants:name>Skin Diseases</IndigenousPlants:name>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#SkinDiseases"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Sour">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Taste"/>
+    </rdfs:subClassOf>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <IndigenousPlants:name>Sour</IndigenousPlants:name>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Sour"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Epicatechin">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#ChemicalConstituents"/>
+    </rdfs:subClassOf>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <IndigenousPlants:name>Epicatechin</IndigenousPlants:name>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Epicatechin"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Hyperdisia">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#MedicinalUse"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <IndigenousPlants:name>Hyperdisia</IndigenousPlants:name>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Hyperdisia"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Carminative">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#MedicinalProperties"/>
+    </rdfs:subClassOf>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <IndigenousPlants:name>Carminative</IndigenousPlants:name>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Carminative"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Oil">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#PlantMedicinalParts"/>
+    </rdfs:subClassOf>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <IndigenousPlants:name>Oil</IndigenousPlants:name>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Oil"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Epicatechingallate">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#ChemicalConstituents"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <IndigenousPlants:name>Epicatechingallate</IndigenousPlants:name>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Epicatechingallate"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Cooling">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#MedicinalProperties"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <IndigenousPlants:name>Cooling</IndigenousPlants:name>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Cooling"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Cough">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#MedicinalUse"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <IndigenousPlants:name>Cough</IndigenousPlants:name>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Cough"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#A-Terpinylacetate">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#ChemicalConstituents"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <IndigenousPlants:name>A-Terpinylacetate</IndigenousPlants:name>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#A-Terpinylacetate"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Dyspepsia">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#MedicinalUse"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <IndigenousPlants:name>Dyspepsia</IndigenousPlants:name>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Dyspepsia"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Constipating">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#MedicinalProperties"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <IndigenousPlants:name>Constipating</IndigenousPlants:name>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Constipating"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Acrid">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Taste"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <IndigenousPlants:name>Acrid</IndigenousPlants:name>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Acrid"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Sweet">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Taste"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <IndigenousPlants:name>Sweet</IndigenousPlants:name>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#MedicinalProperties"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Sweet"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Ulcers">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#MedicinalUse"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <IndigenousPlants:name>Ulcers</IndigenousPlants:name>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Ulcers"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Appetizer">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#MedicinalProperties"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Appetizer"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Plants">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#LivingThing"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Nuts">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#PlantMedicinalParts"/>
+    </rdfs:subClassOf>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <IndigenousPlants:name>Nuts</IndigenousPlants:name>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Nuts"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#FamilyGroup"/>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Fruit">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#PlantMedicinalParts"/>
+    </rdfs:subClassOf>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <IndigenousPlants:name>Fruit</IndigenousPlants:name>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Fruit"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Flatulence">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#MedicinalUse"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <IndigenousPlants:name>Flatulence</IndigenousPlants:name>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Flatulence"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Root">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#PlantMedicinalParts"/>
+    </rdfs:subClassOf>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <IndigenousPlants:name>Root</IndigenousPlants:name>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Root"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Fever">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#MedicinalUse"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <IndigenousPlants:name>Fever</IndigenousPlants:name>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Fever"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Astringent">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Taste"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <IndigenousPlants:name>Astringent</IndigenousPlants:name>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Astringent"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#TenderBud">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#PlantMedicinalParts"/>
+    </rdfs:subClassOf>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <IndigenousPlants:name>Tender Bud</IndigenousPlants:name>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#TenderBud"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Pruritus">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#MedicinalUse"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <IndigenousPlants:name>Pruritus</IndigenousPlants:name>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Pruritus"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Flavonoids">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#ChemicalConstituents"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <IndigenousPlants:name>Flavonoids</IndigenousPlants:name>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Flavonoids"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Vomiting">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#MedicinalUse"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <IndigenousPlants:name>Vomiting</IndigenousPlants:name>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Vomiting"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Seeds">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#PlantMedicinalParts"/>
+    </rdfs:subClassOf>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <IndigenousPlants:name>Seeds</IndigenousPlants:name>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Seeds"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Gallo-catechin">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#ChemicalConstituents"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <IndigenousPlants:name>Gallo-catechin</IndigenousPlants:name>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Gallo-catechin"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Leaves">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#PlantMedicinalParts"/>
+    </rdfs:subClassOf>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <IndigenousPlants:name>Leaves</IndigenousPlants:name>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Leaves"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Diuretic">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#MedicinalProperties"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <IndigenousPlants:name>Diuretic</IndigenousPlants:name>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Diuretic"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Animals">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#LivingThing"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#PlantMedicinalParts">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#MedicinalParts"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Bitter">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Taste"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <IndigenousPlants:name>Bitter</IndigenousPlants:name>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Bitter"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#ZINGIBERACEAE">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#FamilyGroup"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <IndigenousPlants:name>ZINGIBERACEAE</IndigenousPlants:name>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#ZINGIBERACEAE"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Aromatic">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Taste"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <IndigenousPlants:name>Aromatic</IndigenousPlants:name>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Aromatic"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Fatigue">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#MedicinalUse"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <IndigenousPlants:name>Fatigue</IndigenousPlants:name>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Fatigue"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Wounds">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#MedicinalUse"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <IndigenousPlants:name>Wounds</IndigenousPlants:name>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Wounds"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Bronchitis">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#MedicinalUse"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <IndigenousPlants:name>Bromchitis</IndigenousPlants:name>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Bronchitis"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#AnimalMedicinalParts">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#MedicinalParts"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Digestive">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#MedicinalProperties"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <IndigenousPlants:name>Digestive</IndigenousPlants:name>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Digestive"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Febrifuge">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#MedicinalProperties"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <IndigenousPlants:name>Febrifuge</IndigenousPlants:name>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Febrifuge"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#EssentialOils">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#ChemicalConstituents"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <IndigenousPlants:name>Essential Oils</IndigenousPlants:name>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#EssentialOils"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Flower">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#PlantMedicinalParts"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <IndigenousPlants:name>Flower</IndigenousPlants:name>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Flower"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Stomachic">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#MedicinalProperties"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <IndigenousPlants:name>Stomachic</IndigenousPlants:name>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Stomachic"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Gonorrhea">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#MedicinalUse"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <IndigenousPlants:name>Gonorrhea</IndigenousPlants:name>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Gonorrhea"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Sudorific">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#MedicinalProperties"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <IndigenousPlants:name>Sudorific</IndigenousPlants:name>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Sudorific"/>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#familyGroup">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#contains">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#PlantMedicinalParts"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#ChemicalConstituents"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#cures">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#PlantMedicinalParts"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#MedicinalUse"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#hasA">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Plants"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#PlantMedicinalParts"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#hasMedicalProperties">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#PlantMedicinalParts"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#MedicinalProperties"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#belongsTo">
+    <owl:inverseOf rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#familyGroup"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Plants"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#FamilyGroup"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#tastes">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#PlantMedicinalParts"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Taste"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#name">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#plant_name">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Plants"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#plant_description">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Plants"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  </owl:DatatypeProperty>
+  <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#plant2">
+    <IndigenousPlants:cures rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Fatigue"/>
+    <IndigenousPlants:hasA rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Leaves"/>
+    <IndigenousPlants:hasMedicalProperties rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Cooling"/>
+    <IndigenousPlants:cures rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Hyperdisia"/>
+    <IndigenousPlants:tastes rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Sweet"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Plants"/>
+    <IndigenousPlants:contains rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Epicatechin"/>
+    <IndigenousPlants:plant_name>CARYOTA URENS</IndigenousPlants:plant_name>
+    <IndigenousPlants:contains rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Epicatechingallate"/>
+    <IndigenousPlants:contains rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Gallo-catechin"/>
+    <IndigenousPlants:hasA rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#TenderBud"/>
+    <IndigenousPlants:belongsTo rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#ZINGIBERACEAE"/>
+    <IndigenousPlants:hasMedicalProperties rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Sweet"/>
+    <IndigenousPlants:plant_description>A tall, feather-leaved palm, with smooth shinny truck and pendulous spadix inflorescence</IndigenousPlants:plant_description>
+    <IndigenousPlants:hasA rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Nuts"/>
+  </owl:NamedIndividual>
+  <IndigenousPlants:Plants rdf:about="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Plant1">
+    <IndigenousPlants:cures rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#SkinDiseases"/>
+    <IndigenousPlants:cures rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Bronchitis"/>
+    <IndigenousPlants:plant_description>A herb with leafy stem up to 90-100 cm in height, leaves oblong-lanceolate, glabrous. Flowers white in globose shortly peduncled spikes; fruits reddish brown densely echinate globose capsules, seeds many</IndigenousPlants:plant_description>
+    <IndigenousPlants:cures rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Vomiting"/>
+    <IndigenousPlants:plant_name>AMOMUM SUBULATUM</IndigenousPlants:plant_name>
+    <IndigenousPlants:cures rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Gonorrhea"/>
+    <IndigenousPlants:contains rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#A-Terpinylacetate"/>
+    <IndigenousPlants:cures rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Dyspepsia"/>
+    <IndigenousPlants:belongsTo rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#ZINGIBERACEAE"/>
+    <IndigenousPlants:hasMedicalProperties rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Constipating"/>
+    <IndigenousPlants:cures rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Pruritus"/>
+    <IndigenousPlants:tastes rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Acrid"/>
+    <IndigenousPlants:cures rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Ulcers"/>
+    <IndigenousPlants:tastes rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Bitter"/>
+    <IndigenousPlants:contains rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#EssentialOils"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <IndigenousPlants:cures rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Diarrhoea"/>
+    <IndigenousPlants:contains rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Flavonoids"/>
+    <IndigenousPlants:cures rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Colic"/>
+    <IndigenousPlants:hasMedicalProperties rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Carminative"/>
+    <IndigenousPlants:hasMedicalProperties rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Sudorific"/>
+    <IndigenousPlants:hasMedicalProperties rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Appetizer"/>
+    <IndigenousPlants:hasMedicalProperties rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Febrifuge"/>
+    <IndigenousPlants:hasA rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Seeds"/>
+    <IndigenousPlants:cures rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Flatulence"/>
+    <IndigenousPlants:cures rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Fever"/>
+    <IndigenousPlants:cures rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Wounds"/>
+    <IndigenousPlants:hasMedicalProperties rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Diuretic"/>
+    <IndigenousPlants:cures rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Cough"/>
+    <IndigenousPlants:hasMedicalProperties rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Aromatic"/>
+    <IndigenousPlants:hasMedicalProperties rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Stomachic"/>
+    <IndigenousPlants:hasMedicalProperties rdf:resource="http://www.semanticweb.org/vinaybabudevarapalli/ontologies/2019/10/IndigenousPlants#Digestive"/>
+  </IndigenousPlants:Plants>
+</rdf:RDF>
